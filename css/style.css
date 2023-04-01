@@ -1,0 +1,84 @@
+@font-face {
+	font-family: 'Kiron';
+	src: url('Kirond41d.eot?#iefix') format('embedded-opentype'),
+       url('Kiron.woff') format('woff'), 
+       url('Kiron.ttf')  format('truetype'),
+	   url('Kiron.otf')  format('truetype'),
+       url('Kiron.html#svgFontName') format('svg'); 
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+	font-family: "Kiron", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+.st0, .st4, .st3, .seat_300_map .st2 {
+    fill: #006A4E;
+    stroke: #FFFFFF;
+    stroke-width: 0.5;
+    stroke-miterlimit: 10;
+}
+.red path, .red, g path, path, a path, polyline, a polyline {
+    -webkit-transition: all 5s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+a, a:hover, a:focus{
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    text-decoration: none;
+    outline: 0 solid transparent;
+    /*color: rgba(0, 0, 0, 0.8);*/
+    font-weight: 600;
+    font-size: 14px;
+    /*text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;*/
+    /*text-shadow: 0 0 5px #000000;*/
+}
+g:hover path,path:hover, a:hover path, polyline:hover, a:hover polyline{
+	fill: #F42A40;
+}
+
+
+
+
+
+
+
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+.panel-default {
+    border-color: #ddd;
+}
+.panel-default > .panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
+.panel-default > .panel-heading > p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.panel-body {
+    padding: 15px;
+}
